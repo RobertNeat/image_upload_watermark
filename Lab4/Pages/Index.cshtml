@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Image uploader</h1>
+    <p>The ASP.NET Core Web App that realizes uploading images to server and server side file storage</p>
+    <p>When the user uploads the image by form under /upload the list of images sync. The user can also peek one of the images on the /single page when clicking on the desired image in the list</p>
+    <a asp-page="Upload">Upload a new file</a><br/>
+
+    
+    <div class="col-12 col-md-6 col-lg-4 mx-auto">
+        <div class="row">
+            @foreach(var item in Model.Images)
+            {
+                <partial name="_Image" model="item" />  
+            }
+        </div>
+    </div>
+
+    <!--
+    @foreach (var item in Model.Images)//<-- displaying only images names
+    {@item}
+    -->
+    
+</div>
