@@ -1,10 +1,10 @@
 # Project screenshots
 
 - main page that lists all the images uploaded:
-<img src="https://raw.githubusercontent.com/RobertNeat/image_upload_watermark/master/main_page.png" width="500px" heigth="auto"/>
+<img src="https://raw.githubusercontent.com/RobertNeat/image_upload_watermark/screenshots/main_page.png" width="500px" heigth="auto"/>
 
 - upload page:
-<img src="https://raw.githubusercontent.com/RobertNeat/image_upload_watermark/master/upload_page.png" width="500px" heigth="auto"/>
+<img src="https://raw.githubusercontent.com/RobertNeat/image_upload_watermark/screenshots/upload_page.png" width="500px" heigth="auto"/>
 
 # Special dependencies
 
